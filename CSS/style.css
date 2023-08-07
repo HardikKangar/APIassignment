@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: #007bff;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #888;
+}
+
+footer a {
+    color: #888;
+}
+
+/* Example of adding an image */
+.container {
+    background-image: url('/Users/kanga/Projects/APIassignment/Images');
+    background-size: cover;
+    background-position: center;
+}
